@@ -52,13 +52,28 @@ print("package imported")
 # cv2.imshow("output",imgcrop)
 # cv2.waitKey(0)
 
-img=np.zeros((512,512,3),np.uint8)
-print(img.shape)
+# img=np.zeros((512,512,3),np.uint8)
+# print(img.shape)
 #img[:]=255,0,0 #colors entire blue
 # cv2.imshow("output",img)
 # cv2.waitKey(0)
 
 #creating lines
-cv2.line(img,(0,0),(300,300),(0,255,0),3)
-cv2.imshow("output",img)
-cv2.waitKey(0)
+# cv2.line(img,(0,0),(300,300),(0,255,0),3)
+# cv2.rectangle(img,(0,0),(250,350),(0,0,255),3) #rectangle will be filled with red cv2.FILLED in last arg
+# cv2.circle(img,(400,50),30,(255,255,0),5)
+# cv2.putText(img,"OPENCV",(300,200),cv2.FONT_HERSHEY_COMPLEX,0.5,(0,15))
+# cv2.imshow("output",img)
+# cv2.waitKey(0)
+
+#flatten images refer pic😒
+
+#joining images
+# img=cv2.imread('Reasources/image.png')
+#
+# imghor=np.hstack((img,img))
+# imgver=np.vstack((img,img))
+# cv2.imshow("hor",imghor)
+# cv2.imshow("output",imgver)
+
+
