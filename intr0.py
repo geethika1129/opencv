@@ -7,9 +7,22 @@ print("package imported")
 # cv2.waitKey(0)
 
 #importing vedios
-cap=cv2.VideoCapture("Resources/banana.mp4")
-while True:
-    success ,img=cap.read()  #shows true or false
-    cv2.imshow("video",img)
-    if cv2.waitKey(1)&0xFF==ord('q'):#adds delay
-        break #if key q is pressed it will break
+# cap=cv2.VideoCapture("Resources/banana.mp4")
+# #if video cam mention id //we can mention the sizes
+# while True:
+#     success ,img=cap.read()  #shows true or false
+#     cv2.imshow("video",img)
+#     if cv2.waitKey(1)&0xFF==ord('q'):#adds delay
+#         break #if key q is pressed it will break
+
+#using the external webcam
+# cap = cv2.VideoCapture(0)
+# cap.set(3,640)
+# cap.set(4,480)
+# cap.set(10,100)
+#
+# while True:
+#     success ,img=cap.read()
+#     cv2.imshow("video",img)
+#     if cv2.waitKey(1) & 0xFF==ord('q'):#adds delay
+#        break #if key q is pressed it will break
