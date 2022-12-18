@@ -26,7 +26,7 @@ print("package imported")
 #     cv2.imshow("video",img)
 #     if cv2.waitKey(1) & 0xFF==ord('q'):#adds delay
 #        break #if key q is pressed it will break
-
+#functions
 #basic functions
 img = cv2.imread("Resources/image.png")
 imggrey=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
