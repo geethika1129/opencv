@@ -30,5 +30,5 @@ print("package imported")
 #basic functions
 img = cv2.imread("Resources/image.png")
 imggrey=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-cv2.imshow("Gray Image",imggrey)
+cv2.imshow( "Gray Image",imggrey)
 cv2.waitKey(0)
