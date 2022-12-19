@@ -75,5 +75,14 @@ print("package imported")
 # imgver=np.vstack((img,img))
 # cv2.imshow("hor",imghor)
 # cv2.imshow("output",imgver)
+#cv2.waitKey(0)
 
+#detect color
+# img=cv2.imread('Resources/image.png')
+# imghsv=cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
+# cv2.imshow("output",imghsv)
+# cv2.waitKey(0)
 
+#face detection
+facecascade=cv2.CascadeClassifier()
+img=cv2.imread('Resources/')
